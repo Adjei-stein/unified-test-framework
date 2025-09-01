@@ -18,6 +18,64 @@ Built with modern tools like **Selenium**, **Appium**, **Axios**, and **Mocha**,
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Adjei-stein/unified-test-framework.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd unified-test-framework
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Tests
+
+- **Run all tests:**
+  ```bash
+  npm test
+  ```
+- **Run API tests:**
+  ```bash
+  npm run test:api
+  ```
+- **Run web tests:**
+  ```bash
+  npm run test:web
+  ```
+- **Run mobile tests:**
+  ```bash
+  npm run test:mobile
+  ```
+
+### View Reports
+
+- **Mochawesome:**
+  Open `mochawesome-report/mochawesome.html` in your browser after running the tests.
+
+- **Allure:**
+  1. Generate the report:
+     ```bash
+     npm run allure:report
+     ```
+  2. Open the report:
+     ```bash
+     allure open allure-report
+     ```
+
+---
+
 ## 🧱 Ideal For
 
 - QA Engineers working across multiple platforms

@@ -1,0 +1,34 @@
+{
+  "name": "unified-test-framework",
+  "version": "1.0.0",
+  "description": "A modular, cross-platform automation framework designed for end-to-end testing of web applications, mobile apps, and APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:api": "mocha tests/api",
+    "test:web": "mocha tests/web",
+    "test:mobile": "mocha tests/mobile",
+    "report": "marge mochawesome-report/mochawesome.json",
+    "allure:report": "allure generate allure-results --clean -o allure-report"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "selenium",
+    "appium",
+    "api",
+    "mocha"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.0.0",
+    "axios": "^1.4.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "devDependencies": {
+    "allure-mocha": "^2.0.0-beta.21"
+  }
+}
